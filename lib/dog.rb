@@ -1,9 +1,9 @@
 class Dog
-  def name=(dog_name)
-    @dog_name = dog_name
+  def name=(name)
+    @name = name
   end
   def name
-    "#{@dog_name}".strip
+    "#{@name}".strip
   end
   def breed=(breed)
     @breed = breed
